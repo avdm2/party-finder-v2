@@ -4,8 +4,7 @@ server:
 spring:
   application:
     name: auth
-    version: ${serviceVersion}
   datasource:
-    url: jdbc:postgresql://postgres:5432/pinfy
+    url: jdbc:postgresql://db:5432/pinfy
     username: postgres
     password: postgres
